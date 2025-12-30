@@ -75,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
         "https://xatimg.com/image/WNrM1ucH7m4q.jpg",
         "https://xatimg.com/image/EwuvibG7CJMB.jpg",
         "https://xatimg.com/image/HD39EyMIFuwB.jpg",
-        "https://xatimg.com/image/EwuvibG7CJMB.jpg",
         "https://xatimg.com/image/VIScYhrh1fT4.jpg",
         "https://xatimg.com/image/okSoI0J5uKsJ.jpg",
         "https://xatimg.com/image/as3v4hhcOGcn.png",
@@ -225,4 +224,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
 });
+
 
