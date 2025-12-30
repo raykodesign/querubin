@@ -223,4 +223,6 @@ document.addEventListener('DOMContentLoaded', () => {
         updateVipGallery();
     });
 
+    
 });
+
