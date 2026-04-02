@@ -433,3 +433,31 @@ body {
 .watermark-ghost span {
     font-weight: 300;
 }
+
+/* --- SCROLL PARA LISTA DE AMIGOS --- */
+.friends-scroll-container {
+    max-height: 350px; /* Controla la altura máxima antes de hacer scroll */
+    overflow-y: auto;
+    padding-right: 15px; /* Espacio para que el contenido no pegue con la barra */
+    margin-right: -5px; /* Compensa el padding derecho visualmente */
+}
+
+/* Estilización de la barra de scroll para navegadores Webkit (Chrome, Edge, Safari) */
+.friends-scroll-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.friends-scroll-container::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.4); /* Fondo oscuro sutil */
+    border-radius: 10px;
+}
+
+.friends-scroll-container::-webkit-scrollbar-thumb {
+    background: var(--gold-dark); /* Color naranja oscuro del tema */
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.friends-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: var(--gold); /* Brilla al pasar el cursor */
+}
